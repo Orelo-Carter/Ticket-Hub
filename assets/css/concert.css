@@ -1,0 +1,178 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --family1: 'Playfair Display', serif;
+    --family2:'Black Ops One', cursive;
+    --family3:'Patua One', cursive;
+    --family4:'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/* 
+rgb(89,169,220)
+ */
+
+ 
+header{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    z-index: 2;
+    background-color: white;
+}
+
+
+div.offcanvas{
+    backdrop-filter: blur(25px);
+    background-color:transparent;
+}
+
+nav > a{
+    font-size: 16px;
+    font-family: var(--family1);
+}
+
+nav > input{
+    outline: none;
+    border: 1px soild white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: var(--family1);
+}
+
+div.logo > img{
+    height: 100px;
+}
+
+div.logo > h1{
+    color: #59a9dc;
+    font-family: var(--family2);
+}
+
+span{
+    color: #176189;
+}
+
+div.search > input{
+    width: 320px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding-left: 20px !important;
+}
+
+div.navx > ul > li{
+    list-style-type:none;
+}
+
+div.navx > ul > li > a{
+    color:  rgba(0, 0, 0, 0.63);
+    font-family: var(--family1);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+div.navx > ul > li > a:hover{
+    background-color: rgb(89,169,220);
+    padding: 8px 8px !important;
+    border-radius: 10px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+    font-family: var(--family1);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+div.icon > i{
+    font-size: 25px;
+    color: rgb(23,97,137);
+}
+
+
+
+main.container3{
+    margin-top: 30px !important;
+    background-image: url(../images/teal-bkgd.jpg);
+    width: 100%;
+    height: 340px;
+    background-size: cover;
+}
+
+
+div.container4{
+    font-family: var(--family4);
+}
+
+div.container4 > p{
+    font-size: 12px;
+}
+
+div.container4 > button{
+    color: rgb(128, 5, 5);
+    margin-top: 20px !important;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-family: var(--family4);
+    padding: 8px 8px !important;
+    margin-bottom: 20px !important;
+}
+
+div.container5 > img{  
+    height: 120px;
+}
+
+
+div.cover1 > h5{
+    color: rgb(128, 5, 5);
+    font-family: var(--family1);
+}
+div.cover1 > p{
+    /* color: rgb(128, 5, 5); */
+    font-family: var(--family4);
+    font-size: 12px;
+}
+
+footer > p{
+    color: rgb(128, 5, 5);
+    font-family: var(--family1);
+    font-size: 14px;
+    margin-top: 20px !important;
+}
+
+div.cover4{
+    margin-top: 190px !important;
+}
+div.cover4 > h1{
+    margin-bottom: 50px !important;
+    font-family: var(--family2);
+}
+
+div.container2 > div > img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+div.container2 > div{
+    transition: all 2s;
+}
+
+div.container2 > div:hover{
+    transform: translate(0px,20px);
+    
+}
+
+div.container2 > div > p{
+    font-family: var(--family4);
+    font-weight: 600;
+}
