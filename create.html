@@ -94,12 +94,52 @@
       <input type="password" id="pword" placeholder="confirm password">
     </div>
     <div class="button4">
-      <button class="button6" type="submit">Submit</button>
+      <!-- <button class="button6" type="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Submit</button> -->
+      
+<button type="button" class="btn btn-primary px-3 py-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Submit
+</button> 
+
     </div>
   
      </form> 
 
   </main>
+
+
+
+
+<!-- Button trigger modal -->
+
+<!-- 
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 py-2" id="staticBackdropLabel">Pending</h1>
+        <button type="button" class="btn-close pe-1" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body py-3">
+        Your myGov details haven't been linked with ATO, kindly do that.
+      </div>
+      <div class="modal-footer py-2 pe-2">
+        <button type="button" class="btn modalButton px-4 py-2">Link to ATO</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
 
   <main class="container3 d-block text-center py-2 d-lg-flex justify-content-around align-items-center">
     <div class="container4">

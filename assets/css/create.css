@@ -17,6 +17,7 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+
 /* 
 rgb(89,169,220)
  */
@@ -162,14 +163,13 @@ div.create > h1{
     font-size: 30px;
     font-family: var(--family4);
     font-weight: 800;
-
 }
 
 div.content1{
     margin-top: 30px !important;
     margin-bottom: 9px !important;
-    width: 100%;
-    text-align: center;
+    width: fit-content !important;
+    margin-inline: auto !important;
 }
 label{
     font-size: 14px;
@@ -205,3 +205,15 @@ button.button6{
     border-radius: 7px;
     box-shadow: 7px 7px 6px 4px rgba(255, 255, 255, 0.201); 
 } 
+
+
+/* rgb(153,225,243)
+rgb(24,48,82) */
+
+button.modalButton{
+    background-color: rgb(153,225,243);
+}
+
+button.modalButton:hover{
+    background-color: rgb(50, 104, 179);
+}
